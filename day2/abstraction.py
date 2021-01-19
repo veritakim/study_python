@@ -2,8 +2,6 @@
 # 함수 실행순서
 
 '''
-
-
 def hello():
     print("Hello")
     print("to the world")
