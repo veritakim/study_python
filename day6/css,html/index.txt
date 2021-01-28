@@ -1,0 +1,9 @@
+ html(Hyper Text Markup Language)
+ - 웹사이트에 들어갈 내용을 담당 
+
+ css(Cascading Style Sheets)
+ - 웹사이트의 스타일을 담당!
+
+ Javascript
+ - 인터렉션을 담당
+
