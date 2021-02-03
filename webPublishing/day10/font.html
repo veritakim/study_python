@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-size: 30px;
+        }
+        .div1{
+            font-size: 100%;
+        }
+        .div2{
+            font-size: 1em; 
+        }
+        .div3{
+            font-size: 200%;
+        }
+        /*타임즈 뉴 로먼을 먼저 사용하는데 없다면 타임즈 그것도 없다면 세리프를 사용하라*/
+        h1{
+            font-family: "Times New Roman", Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+        절대적 : px pt
+        상대적 : em %. 1em은 100%와 비슷하다
+
+        line-height : 줄 간격을 조절할 수 있다.
+     -->
+    <div class="div1">
+        div1
+        <div class="div2">
+            div2
+            <div class="div3">
+                 div3
+            </div>
+        </div>
+    </div>
+    <div>
+        <h1>Trying Out Different Fonts!</h1>
+    </div>
+    
+</body>
+</html>
